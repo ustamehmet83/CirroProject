@@ -16,8 +16,8 @@ test.describe('Login Tests', () => {
     const dashBoardPage = new DashBoardPage(page)
 
     
-    await loginPage.emailField.fill('mehmet_usta@epam.com'); 
-    await loginPage.passwordField.fill('Ferahevler83$$'); 
+    await loginPage.emailField.fill('example@epam.com'); 
+    await loginPage.passwordField.fill('password'); 
     await loginPage.loginField.click();
 
    
